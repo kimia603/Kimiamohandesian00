@@ -1,0 +1,28 @@
+{
+    double a, b;
+    char r;
+
+    a = int.Parse(Console.ReadLine());
+    r = Console.ReadKey().KeyChar;
+    b = int.Parse(Console.ReadLine());
+
+    if (r == '*')
+    {
+        T = a * b;
+    }
+    else if (r == '/')
+    {
+        T = a / b;
+    }
+    else if (r == '+')
+    {
+        T = a + b;
+    }
+    else if (r == '-')
+    {
+        T = a - b;
+    }
+
+    Console.WriteLine(T);
+    Console.ReadLine();
+}
