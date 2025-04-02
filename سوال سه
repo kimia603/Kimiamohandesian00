@@ -1,0 +1,16 @@
+{int n1, n2, n3, S1, S2;
+
+n1 = int.Parse(Console.ReadLine());
+n2 = int.Parse(Console.ReadLine());
+n3 = int.Parse(Console.ReadLine());
+
+S1 = n3 - n2;
+S2 = n2- n1;
+
+if (S1 == S2)
+    Console.WriteLine("yes");
+else
+    Console.WriteLine("no");
+
+Console.ReadLine();
+}
