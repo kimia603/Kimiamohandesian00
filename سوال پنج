@@ -1,0 +1,11 @@
+{int m, h;
+m = int.Parse(Console.ReadLine());
+if (m <= 5)
+{ h = 0; }
+else if (m <= 20)
+{ h = (m - 5) * 1000; }
+else
+{ h = (20 - 5) * 1000 + (m - 20) * 5000; }
+h = h + 1000;
+Console.WriteLine(h);
+Console.ReadLine(); }
